@@ -95,7 +95,7 @@ class _PayCalculatorScreenState extends State<PayCalculatorScreen> {
                   style: ElevatedButton.styleFrom(
                     minimumSize: Size(180, 50),
                     shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(4),
+                      borderRadius: BorderRadius.circular(10),
                     ),
                   ),
                   child: Text('Calculate'),
@@ -106,7 +106,7 @@ class _PayCalculatorScreenState extends State<PayCalculatorScreen> {
                     minimumSize: Size(180, 50),
                     backgroundColor: Colors.red,
                     shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(4),
+                      borderRadius: BorderRadius.circular(10),
                     ),
                   ),
                   child: Text('Clear'),
@@ -135,7 +135,7 @@ class _PayCalculatorScreenState extends State<PayCalculatorScreen> {
             Divider(),
             Center(
               child: Text(
-                'Your Full Name - Student ID',
+                'David Sanni - 301359093',
                 style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
               ),
             ),
